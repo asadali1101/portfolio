@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: grey;
+}
+
+
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 10px;
+}
+
+.nav_logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.nav_logo i {
+    color: yellow;
+    margin-right: 5px;
+}
+
+.nav_bar ul li {
+    display: inline;
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.nav_icon i {
+    color: #fff;
+    margin: 14px;
+}
+
+.nav_bar ul li a:hover {
+    border-bottom: solid #000;
+    transition: 1ms;
+    font-size: large;
+}
+
+
+.first_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.intro{
+    position: absolute;
+    left: 8%;
+}
+.services{
+    position: absolute;
+    right: 17%;
+}
+.intro h2{
+    color: #ccc;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.intro h1{
+    color: #fff;
+    font-size: 3em;
+}
+.intro span {
+    color: yellow ;
+    font-weight: bolder;
+
+}
+.intro p{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.circle {
+    background-color: rgb(110, 112, 115) !important;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 25px black;
+    
+}
+.services .first{
+    font-size: larger;
+}
+.services p{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.services a {
+    color: yellow;
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+.services i{
+    color: yellow;
+    padding: 7px;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
+.arrow i{
+   background-color: grey !important ;
+
+}
+.main_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    height: 80px;
+    width: 85%;
+    position: absolute;
+    box-shadow: 0 0 10px black;
+    z-index: 10;
+
+}
+.picture{
+    position: absolute;
+    z-index: 1;
+    height: 600px;
+    
+}
+.box_container{
+    
+    padding-left: 8%;
+    padding-right: 8% !important;
+}
+.box{
+    font-weight: bold;
+    background-color: rgb(110, 112, 115);
+    height: 40px;
+    width: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_box{
+    font-size: larger;
+    color: white;
+    
+}
+.meta{
+    height: 35px;
+    width: 40px;
+}
+.google{
+    height: 80px;
+    width: 120px;
+}
+.linkedin{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    
+}
+.slack{
+    height: 20px;
+    width: 20px;
+}
+/*service css start*/
+.second_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+ .bgc2{
+    background-color:rgb(86, 84, 84);
+    position: relative;
+ }
+ 
+  .second_para{
+    line-height: 0.25in;
+    letter-spacing: 0.6px;
+}
+.service{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.service_image{
+    height: 120px;
+    width: 180px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.web{
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px ;
+}
+.h3{
+    color: yellow;
+    font-size: 40px;
+}
+.h3 ,.p{
+    margin: 0px;
+    padding: 0px; 
+}
+.heading{
+    font-style: oblique;
+    margin-top: 80px;
+    text-align: center;
+}
+.pr{
+    font-size: 70%;
+    color: #fff;
+}
+.skill{
+    margin-left: 20%;
+}
+.arrow2 {
+    margin-left: 180px;
+    color: yellow ;
+}
+.arrow3 {
+    margin-left: 155px;
+    color: yellow;
+}
+.arrow4 {
+    margin-left: 150px;
+    color: yellow;
+}
+
+table tr td{
+    height: 100px;
+    width: 140px;
+}
+.color{
+    color: yellow;
+    font-size: 30px;
+}
+.data{
+    font-size: 11px;
+    color: #fff;
+}
+.heading2{
+    color: #fff;
+}
+.second_para{
+    color: #fff;
+}
+
+
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: absolute;
+    margin: 0 40px 0 40px;
+
+}
+.card{
+    background-color: rgb(86, 84, 84);
+    height: 300px;
+    width: 340px;
+    }
+.card > i{
+    background-color: rgb(31, 31, 31);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 30px;
+    
+}
+.card > span{
+    font-size: 28px;
+    font-weight: bolder ;
+    margin: 30px;
+    color: #fff;
+}
+.card > p{
+    margin: 30px;
+    color: #fff;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+}
